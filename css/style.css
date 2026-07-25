@@ -1,0 +1,50 @@
+:root {
+  --color-ivory: #F5EFE4;
+  --color-maroon: #7B1E3A;
+  --color-gold: #C9A24B;
+  --color-text: #2B241E;
+  --font-heading: 'Georgia', serif;
+  --font-body: 'Helvetica Neue', Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background-color: var(--color-ivory);
+}
+
+header {
+  background-color: var(--color-maroon);
+  color: var(--color-ivory);
+  padding: 1.5rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+header h1 {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+}
+
+nav {
+  margin-left: auto;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: var(--color-ivory);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+nav a:hover {
+  color: var(--color-gold);
+}
