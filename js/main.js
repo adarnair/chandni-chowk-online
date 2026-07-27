@@ -40,7 +40,7 @@ function filterByCategory(category) {
   if (category === "all") {
     renderProducts(allProducts);
   } else {
-    const filtered = allProducts.filter(record => record.fields.category === category);
+    const filtered = allProducts.filter(record => record.fields.product_category === category);
     renderProducts(filtered);
   }
 }
